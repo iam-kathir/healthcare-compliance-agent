@@ -10,7 +10,7 @@ import plotly.graph_objects as go
 from datetime import datetime
 import json, io, time
 
-API = "http://localhost:8000"
+API = "http://127.0.0.1:8000"
 st.set_page_config(page_title="HCA — Healthcare Compliance Agent", page_icon="🏥", layout="wide", initial_sidebar_state="expanded")
 
 # ━━━ CSS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
